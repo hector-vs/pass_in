@@ -10,7 +10,7 @@ O sistema fará um scan da credencial do participante para emitir a entrada no e
 
 ## Requisitos
 
-## Requisitos funcionais
+### Requisitos funcionais
 
 - [ ] O organizador deve poder cadastrar um novo evento;
 - [ ] O organizador deve poder visualizar dados de um evento;
@@ -19,13 +19,13 @@ O sistema fará um scan da credencial do participante para emitir a entrada no e
 - [ ] O participante deve poder visualizar seu crachá de inscrição;
 - [ ] O participante deve poder realizar check-in no evento;
 
-## Regras de negócio
+### Regras de negócio
 
 - [ ] O participante só pode se inscrever em um evento uma única vez;
 - [ ] O participante só pode se inscrever em eventos com vagas disponíveis;
 - [ ] O participante só pode realizar o check-in em um evento uma única vez;
 
-## Requisitos não funcionais
+### Requisitos não funcionais
 
 - [ ] O check-in no evento será realizado através de um QRCode;
 
