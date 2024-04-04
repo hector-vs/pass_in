@@ -2,7 +2,17 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-  "title": "unite Summit",
+  "title": "PridiumFest",
   "details": "Um evento para apaixonados por programação",
   "maximumAttendees": 100
+}
+
+###
+
+POST http://localhost:3333/events/1d08d08f-e871-43c2-b19c-0f7d2d8f31cd/attendees
+Content-Type: application/json
+
+{
+  "name": "Hector Saldivar",
+  "email": "hectory@gmail.com"
 }
