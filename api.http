@@ -2,9 +2,9 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-  "title": "PridiumFest",
-  "details": "Um evento para apaixonados por programação",
-  "maximumAttendees": 100
+  "title": "Classroom Mamation Fest",
+  "details": null,
+  "maximumAttendees": 2
 }
 
 ###
@@ -13,6 +13,14 @@ POST http://localhost:3333/events/1d08d08f-e871-43c2-b19c-0f7d2d8f31cd/attendees
 Content-Type: application/json
 
 {
-  "name": "Hector Saldivar",
-  "email": "hectory@gmail.com"
+  "name": "Vitor Alexandre",
+  "email": "moto@gmail.com"
 }
+
+###
+
+GET http://localhost:3333/events/1d08d08f-e871-43c2-b19c-0f7d2d8f31cd
+
+###
+
+GET http://localhost:3333/attendees/4/badge
