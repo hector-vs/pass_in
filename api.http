@@ -2,19 +2,19 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-  "title": "Classroom Mamation Fest",
+  "title": 1,
   "details": null,
   "maximumAttendees": 2
 }
 
 ###
 
-POST http://localhost:3333/events/1d08d08f-e871-43c2-b19c-0f7d2d8f31cd/attendees
+POST http://localhost:3333/events/02468fd7-95d5-4a84-8b0d-07540ea8b99b/attendees
 Content-Type: application/json
 
 {
-  "name": "Vitor Alexandre",
-  "email": "moto@gmail.com"
+  "name": "John Frusciante",
+  "email": "heavywing@gmail.com"
 }
 
 ###
@@ -23,4 +23,16 @@ GET http://localhost:3333/events/1d08d08f-e871-43c2-b19c-0f7d2d8f31cd
 
 ###
 
-GET http://localhost:3333/attendees/4/badge
+GET http://localhost:3333/attendees/6/badge
+
+###
+
+GET http://localhost:3333/attendees/2/check-in
+
+###
+
+GET http://localhost:3333/events/1d08d08f-e871-43c2-b19c-0f7d2d8f31cd/attendees
+
+###
+
+GET http://localhost:3333/events/1d08d08f-e871-43c2-b19c-0f7d2d8f31cd/attendees?query=edu
